@@ -1,0 +1,32 @@
+.payment-section{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   max-width: 1500px;
+   padding: .2rem 1.5rem;
+   margin: 0 auto;
+   justify-content: center;
+
+  }
+  
+  .payment-section .logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .payment-section .logo img{
+    width: 50px;
+  }
+  .payment-section .scanner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 1.2rem;
+  }
