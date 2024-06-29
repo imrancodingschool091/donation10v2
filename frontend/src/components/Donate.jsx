@@ -26,10 +26,8 @@ const Donate = () => {
     console.log(data)
 
     try {
-      let response = await axios.post(
-        "http://localhost:4000/user/payment",
-        userInfo
-      );
+      let response = await axios.post("http://localhost:4000/user/payment",userInfo)
+      
 
       if (response.status === 201) {
         toast.success(response.data.message, { position: "top-center" });
