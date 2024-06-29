@@ -10,7 +10,7 @@ function Login() {
       <section className="donate">
         <form>
           <div>
-            <img src="/public/websitelogo.png" alt="logo" />
+            <img src="/websitelogo.png" alt="logo" />
           </div>
           <h1
             style={{
