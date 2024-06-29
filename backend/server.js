@@ -12,7 +12,11 @@ dotenv.config()
 //middleware
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
-app.use(cors())
+app.use(cors({
+  origin:"",
+  methods:["POST","GET"],
+  credentials:true
+}))
 
 const PORT=process.env.PORT ||8080
 
